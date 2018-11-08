@@ -22,6 +22,7 @@ def printer(attendees)
   for item in badges
     puts item
   end
+  assignments = assign_rooms(attendees)
   for item in assignments
     puts item
   end
